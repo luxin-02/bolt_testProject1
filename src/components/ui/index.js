@@ -6,12 +6,12 @@ import Card from './Card.vue'
 import Modal from './Modal.vue'
 
 export function registerUIComponents(Vue) {
-  Vue.component('UIButton', Button)
-  Vue.component('UIInput', Input)
-  Vue.component('UISelect', Select)
-  Vue.component('UITextarea', Textarea)
-  Vue.component('UICard', Card)
-  Vue.component('UIModal', Modal)
+  Vue.component('ui-button', Button)
+  Vue.component('ui-input', Input)
+  Vue.component('ui-select', Select)
+  Vue.component('ui-textarea', Textarea)
+  Vue.component('ui-card', Card)
+  Vue.component('ui-modal', Modal)
 }
 
 export { Button, Input, Select, Textarea, Card, Modal }
